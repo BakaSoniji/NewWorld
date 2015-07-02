@@ -1057,6 +1057,9 @@ textarea.ssl_text {
 		width: 110px;
 	}
 }
+	.mgb.button {
+		margin-bottom: 0.75em;
+	}
 @media (min-width: 1200px) {
 	.listbox .ui.horizontal.list>.item {
 		width: 33.333%;
