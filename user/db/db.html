@@ -2,14 +2,13 @@
 |?HELP_SECTION=`USER_HELPER`/mysql.html|
 |HTM_USER_TOP|
 
-<a href="CMD_DB_CREATE?DOMAIN=|DOMAIN|" style="line-height: 1.5;font-size: 1.1em;"><i class="database icon"></i>|LANG_CREATE_DB|</a>
-<br/>
+<a href="CMD_DB_CREATE?DOMAIN=|DOMAIN|" class="ui green button mgb"><i class="database icon"></i>|LANG_CREATE_DB|</a>
 
+<a target="_blank" href="|HTTP|://|HOSTNAME|/phpmyadmin" class="ui blue button mgb"><i class="check circle icon"></i>|LANG_PMA|</a>
 |*if USERDATABASE="0"|
 <br><b>|LANG_DB_BEFORE_PMA|</b>
 <br/>
 |*endif|
-<a target="_blank" href="|HTTP|://|HOSTNAME|/phpmyadmin" style="line-height: 1.5;font-size: 1.1em;"><i class="large check circle icon"></i>|LANG_PMA|</a>
 <br/><br/>
 
 |DATABASES|
